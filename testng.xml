@@ -1,0 +1,11 @@
+<suite name ="AutomationSuite">
+<listeners>
+    <listener class-name="com.example.MyListener" />
+    <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+  </listeners>
+	<test name="CheeseCake">
+		<packages>
+			<package name="test"/>
+		</packages>
+	</test>
+</suite>
